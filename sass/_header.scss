@@ -1,0 +1,74 @@
+header{
+    background-image: url(../images/75ae05112787439\ 1\ \(2\).svg);
+    min-height: 1024px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    background-position: center;
+    margin-bottom: 150px;
+    .container{
+        .navbar{
+            display: flex;
+            align-items: center;
+            gap: 271px;
+            margin-top: 59px;
+            padding-bottom: 240px;
+            ul{
+                display: flex;
+                gap: 55px;
+                li{
+                        transition: .2s;
+                    
+                    &:hover{
+                        color: #FF8C00;
+                        transition: .4s;
+                    }
+                    color: white;
+                    font-size: 20px;
+                    font-weight: 400;
+                    line-height: 24.38px;
+                    select{
+                        background-color: transparent;
+                        border: none;
+                        color: white;
+                        font-size: 15px;
+                        font-weight: 500;
+                        &:hover{
+                            color: #FF8C00;
+                            cursor: pointer;
+                        }
+
+                    }
+                }
+            }
+        }
+        .header__text{
+            width: 667px;
+
+            p{
+                font-size: 36px;
+                font-weight:700;
+                line-height: 54px;
+                color: #FFFFFF;
+            }
+            button{
+                padding: 15px 76px;
+                border-radius: 8px;
+                border: none;
+                color: white;
+                background-color: #114E86;
+                font-size: 20px;
+                font-weight: 500;
+                transition: .3s;
+                &:hover{
+                    background-color: #FF8C00;
+                    color: white;
+                    cursor: pointer;
+                    transform: scale(1.1);
+                    transition: .4s;
+                }
+            }
+        }
+    }
+
+}

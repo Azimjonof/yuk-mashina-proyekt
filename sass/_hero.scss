@@ -1,0 +1,27 @@
+.hero{
+    position: relative;
+    .up{
+        position: absolute;
+        right: 40px;
+        bottom: 100px;
+        cursor: pointer;
+    }
+    
+    .hero__text{
+        width: 850px;
+        margin: 0 auto;
+        b{
+            font-weight: 700;
+            font-size: 30px;
+            line-height: 36.75px;
+            text-align: center;
+            display: block;
+        }
+        p{
+           font-weight: 500;
+           font-size: 20px;
+           line-height: 24.28px;
+           margin-bottom: 150px;
+        }
+    }
+}
